@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.scroll-image-primary {
+  animation: scroll-horizontal 40s linear infinite;
+}
+
+@keyframes scroll-horizontal {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+   
+  /* .slider-wrapper {
+      display: flex;
+      overflow: hidden;
+    }
+    .slider {
+      display: flex;
+      animation: slide 30s linear infinite;
+    }
+    .slider img {
+      flex-shrink: 0;
+      width: 100%;
+    } */
